@@ -1,0 +1,54 @@
+.imageSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20%;
+    height: 100%;
+    gap: 1rem
+}
+
+.header {
+    text-align: center;
+}
+
+.wraper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.content  {
+    width: 40%;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.skateText {
+    padding: 16px;
+    margin: 3px;
+}
+
+@media screen and (max-width: 900px){
+    .wraper {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        justify-content: center;  
+        align-items: center;    
+    }
+
+    .imageSection {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .content {
+        width: 70%;
+    }
+}

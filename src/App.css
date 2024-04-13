@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    background-color: #E8EBE4;
+    height: 100%;
+}
+
+div#root {
+    margin: 0;
+}
